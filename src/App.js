@@ -1,14 +1,11 @@
-import React from 'react';
+import React from "react";
 import Search from "./components/Search";
 
+// FIXME Render return only search component
 class App extends React.Component {
-	render() {
-		return (
-			<div>
-				<Search/>
-			</div>
-		);
-	}
+  render() {
+    return <Search />;
+  }
 }
 
 export default App;
